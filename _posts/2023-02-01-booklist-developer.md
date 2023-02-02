@@ -7,32 +7,19 @@ tags: 书单，知识管理
 
 书读百遍，其义自见。目前主要使用的两个编程语言是`Java`、`Python`。
 
-# Normal block
+# 书目列表
 
 - 《Effective Python》
 - 《Fluent Python》
 - 《Core Java》
 ```
-alert('Hello World!');
+通过阅读+练习的方式，掌握两种编程。
 ```
+每天记录笔记，放入博客页面，积累值得深入的技术
 
-    print 'helloworld'
+# 进阶分类
 
-# Highlight block
-
-```javascript
-alert( 'Hello, world!' );
-```
-
-```python
-print 'helloworld'
-```
-
-```ruby
-def foo
-  puts 'foo'
-end
-```
+框架技术及系列的知识
 
 {% highlight ruby %}
 def foo
@@ -46,21 +33,3 @@ def foo
 end
 {% endhighlight %}
 
-```c++
-#include <iostream>
-
-using namespace std;
-
-void foo(int arg1, int arg2)
-{
-
-}
-
-int main()
-{
-  string str;
-  foo(1, 2);
-  cout << "Hello World" << endl;
-  return 0;
-}
-```
