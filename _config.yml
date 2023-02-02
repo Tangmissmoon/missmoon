@@ -16,7 +16,7 @@ date_format: '%Y-%m-%d'
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com' and baseurl as '/child'
 url:
 baseurl:
-permalink: pretty
+permalink: :category/:title/
 
 # Pagination
 paginate: 10
@@ -61,8 +61,14 @@ defaults:
       comments: true
 
 # Atom feed
+# feed
+# Dependencies: https://github.com/Tangmissmoon/missmoon
 feed:
+  type: atom
   path: atom.xml
+  limit: 20
+  hub:
+  content:
 
 # Plugins
 ## Docs: https://help.github.com/articles/configuring-jekyll-plugins/
@@ -90,10 +96,10 @@ rss:
 #since: 2023
 
 # icon between year and author @Footer
-authoricon: moon
+authoricon: fa-moon-o
 
 # Footer `powered-by` and `theme-info` copyright
-copyright: true
+copyright: false
 
 # ---------------------------------------------------------------
 # SEO Settings
@@ -117,11 +123,14 @@ index_with_subtitle: false
 
 # When running the site in a subdirectory (e.g. domain.tld/blog), remove the leading slash (/archives -> archives)
 menu:
-  home: /
+
+  home: / || home
+  archives: /archives/ || history
+  # categories: /categories/ || list
+  tags: /tags/ || tags
+  # tools: /categories/工具资源/ || briefcase
+  about: /about/ || user
   #categories: /categories/
-  about: /about/
-  archives: /archives/
-  tags: /tags/
   #sitemap: /sitemap.xml
   #commonweal: /404.html
 
@@ -215,6 +224,7 @@ font:
 # Value is the target link (E.g. GitHub: https://github.com/iissnan)
 #social:
   #LinkLabel: Link
+  E-Mail: mailto:tangsy163@gmail.com || envelope
 
 
 # Social Links Icons
@@ -233,7 +243,7 @@ social_icons:
 
 # Sidebar Avatar
 # in directory: /assets/images/avatar.gif
-#avatar:
+avatar: /assets/images/avatar.gif
 
 
 # Table Of Contents in the Sidebar
@@ -273,11 +283,11 @@ sidebar:
   offset: 12
   offset_float: 0
 
-  # Back to top in sidebar
-  b2t: false
+  # 显示TOP按钮
+  b2t: true
 
-  # Scroll percent label in b2t button
-  scrollpercent: false
+  # 浏览页面显示进度
+  scrollpercent: true
 
 
 # Blog rolls
@@ -311,14 +321,15 @@ auto_excerpt:
 post_meta:
   item_text: true
   created_at: true
-  updated_at: false
+  updated_at: true
   categories: true
 
 # Post wordcount display settings
 post_wordcount:
-  item_text: true
-  wordcount: false
-  min2read: false
+  item_text: true   
+  wordcount: true  # 字数统计
+  min2read: true   # 预览时间
+  totalcount: true # 总统计
   separated_meta: true
 
 # Wechat Subscriber
@@ -327,12 +338,11 @@ post_wordcount:
   #qcode: /path/to/your/wechatqcode ex. /uploads/wechat-qcode.jpg
   #description: ex. subscribe to my blog by scanning my public wechat account
 
-# Declare license on posts
+# 开启版权声明
 post_copyright:
-  enable: false
-  license: CC BY-NC-SA 3.0
-  license_url: https://creativecommons.org/licenses/by-nc-sa/3.0/
-
+  enable: true
+  license: CC BY-NC-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-nc-sa/4.0/
 
 
 # ---------------------------------------------------------------
@@ -523,9 +533,9 @@ rating:
 # Show number of visitors to each article.
 # You can visit https://leancloud.cn get AppID and AppKey.
 leancloud_visitors:
-  enable: false
-  app_id: #<app_id>
-  app_key: #<app_key>
+  enable: true
+  app_id: # your leancloud application appid
+  app_key:  # your leancloud application appkey
 
 # Show PV/UV of the website/page with busuanzi.
 # Get more information on http://ibruce.info/2015/04/04/busuanzi/
@@ -573,6 +583,8 @@ calendar:
   singleEvents: true
   maxResults: 250
 
+# 检索功能
+
 # Algolia Search
 algolia_search:
   enable: false
@@ -586,7 +598,7 @@ algolia_search:
 
 # Local search
 local_search:
-  enable: false
+  enable: true
   # if auto, trigger search by changing input
   # if manual, trigger search by pressing enter key or search button
   trigger: auto

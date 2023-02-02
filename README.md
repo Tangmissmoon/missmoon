@@ -1,19 +1,24 @@
-# NexT
+# 个人博客 Valley
 
-> 精于心，简于形
+博客的英文是山谷，寓意取自杨万里词里的万花川谷。
+月光尚没有照拂到书房里，即使是在花园，也能自得其乐的享受。
 
-NexT 是由 [Hexo NexT](https://github.com/iissnan/hexo-theme-next) 移植而来的 Jekyll 主题。<!--commit: f951075d9b739d26b42472431995fa68d08796aa-->
+> **好事近·七月十三日夜登万花川谷望月作**
+>
+> 【作者】杨万里 【朝代】宋
+>
+> 月未到诚斋，先到万花川谷。不是诚斋无月，隔一林修竹。
+>
+> 如今才是十三夜，月色已如玉。未是秋光奇绝，看十五十六。
 
-<a href="http://simpleyyt.github.io/jekyll-theme-next/" target="_blank">在线预览 Preview</a> | <a href="http://simpleyyt.com" target="_blank">Yitao's Blog</a> | <a href="http://theme-next.simpleyyt.com" target="_blank">NexT 使用文档</a> |  [English Documentation](README.en.md)
-
-[![Join the chat at https://gitter.im/simpleyyt/jekyll-theme-next](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/jekyll-theme-next/lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
-
-![NexT Schemes](http://iissnan.com/nexus/next/next-schemes.jpg)
+ 坚信刻意练习，每日精进，长堤之成在于日积之功，持续精进带来的收益，使我成为了直接受益者，因此找到了心仪的专业、学校、乃至工作。老黄牛般耕地的坚持，致力在有限的生命中体验各类生活。
 
 
-## 浏览器支持 Browser support
-
-![Browser support](http://iissnan.com/nexus/next/browser-support.png)
+## 内容 Content
+- 阅读心得
+- 解决之道
+- 学习笔记
+- 输出内容
 
 
 ## 贡献 Contributing
@@ -23,13 +28,8 @@ NexT 是由 [Hexo NexT](https://github.com/iissnan/hexo-theme-next) 移植而来
 
 ## 开发 Development
 
-NexT 主旨在于简洁优雅且易于使用，所以首先要尽量确保 NexT 的简洁易用性。
+NexT 主题比较简洁，符合个人审美，同样黑暗主题[moon](https://github.com/Tangmissmoon/moon)也是备选。
 
-NexT is built for easily use with elegant appearance. First things first, always keep things simple.
+## 其他
 
-
-## 捐赠
-
-支付宝捐赠链接还是要有的，万一真的有人捐呢。
-
-![支付宝扫码捐赠](http://7lryc0.com1.z0.glb.clouddn.com/a6x049034plyvjm1rvn4h28%20%281%29.png)
+主题来源：Jekyll 主题 NexT
