@@ -4,6 +4,10 @@ type: about
 ---
 
 ## 简介
+![moon](https://img.shields.io/badge/码农-missmoon-blue?style=flat-square&logo=Monica) 
+![miss](https://img.shields.io/badge/游泳-Tang-blue?style=flat-square&logo=Snapchat)
+![moon](https://img.shields.io/badge/社恐-INFJ➡️ENFJ-blue?style=flat-square&logo=Snapchat)
+
 
 💡本硕都是计科专业，码龄8年+，入坑“心流编程”，遂放弃好为人师，一心码砖，目前，多番努力下，终于成为厂内边缘化人物，职能包括服务器开发、数据处理。
 
@@ -14,16 +18,22 @@ type: about
 
 📝新增博客形式，是为了提高阅读&写作的ROI，沉淀解决问题的能力和过程，同时圆梦。
 
-核心经历
+## 核心经历
 - Python
 - Java
 - svn、git、maven、mysql、mongodb
 
-目标
+## 目标
 - 提高写作能力
 - 沉淀编程技术
 - 积攒阅历过程
 - 用作品说话
 
-2023的期待：
+### 2023的期待：
 考证-志愿者-阅读-健康-写作
+
+- 考证 ![Progress](https://progress-bar.dev/5/?title=Progress&width=100)
+- 志愿者 ![Progress](https://progress-bar.dev/0/?title=Progress&width=100)
+- 阅读 ![Progress](https://progress-bar.dev/10/?title=Progress&width=100)
+- 健康 ![Progress](https://progress-bar.dev/1/?title=Progress&width=100)
+- 写作 ![Progress](https://progress-bar.dev/10/?title=Progress&width=100)
