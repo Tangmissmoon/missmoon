@@ -96,7 +96,7 @@ rss:
 #since: 2023
 
 # icon between year and author @Footer
-authoricon: fa-moon-o
+authoricon: user
 
 # Footer `powered-by` and `theme-info` copyright
 copyright: false
@@ -123,8 +123,7 @@ index_with_subtitle: false
 
 # When running the site in a subdirectory (e.g. domain.tld/blog), remove the leading slash (/archives -> archives)
 menu:
-
-  home: / || home
+  home: /
   archives: /archives/
   # categories: /categories/ || list
   tags: /tags/
