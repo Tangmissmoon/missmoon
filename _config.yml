@@ -125,12 +125,11 @@ index_with_subtitle: false
 menu:
 
   home: / || home
-  archives: /archives/ || history
+  archives: /archives/
   # categories: /categories/ || list
-  tags: /tags/ || tags
+  tags: /tags/
   # tools: /categories/工具资源/ || briefcase
-  about: /about/ || user
-  #categories: /categories/
+  about: /about/
   #sitemap: /sitemap.xml
   #commonweal: /404.html
 
