@@ -84,6 +84,8 @@ plugins:
 # Put your favicon.ico into `assets/` directory.
 favicon: /assets/livewire.svg
 
+
+
 # Set default keywords (Use a comma to separate)
 keywords: "Missmoon, Python, blog, knowledge"
 
@@ -123,7 +125,7 @@ index_with_subtitle: false
 
 # When running the site in a subdirectory (e.g. domain.tld/blog), remove the leading slash (/archives -> archives)
 menu:
-  home: /
+  home: / || home
   archives: /archives/
   # categories: /categories/ || list
   tags: /tags/
@@ -361,7 +363,7 @@ custom_logo:
 # Available value:
 #    normal | night | night eighties | night blue | night bright
 # https://github.com/chriskempson/tomorrow-theme
-highlight_theme: normal
+highlight_theme: night eighties
 
 
 # ---------------------------------------------------------------
