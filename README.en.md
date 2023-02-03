@@ -148,7 +148,7 @@ menu:
   archives: /archives
 
 # Favicon
-favicon: /assets/favicon.ico
+favicon: https://img.icons8.com/ios/256/easy.png
 
 # Avatar (put the image into next/source/images/)
 # can be any image format supported by web browsers (JPEG,PNG,GIF,SVG,..)

@@ -82,7 +82,8 @@ plugins:
 # ---------------------------------------------------------------
 
 # Put your favicon.ico into `assets/` directory.
-favicon: /assets/images/favicon.png
+favicon: https://img.icons8.com/ios/256/easy.png
+# /assets/images/favicon.png
 
 
 
