@@ -1,14 +1,15 @@
 ---
-title: 解决docker login出错过程
+title: 在springboot使用value注解
 categories:
  - 记录
 tags: 
- - 解决问题
- - docker
+ - 掌握深度
+ - 业务经验
 ---
 
 # 前因
 
+业务需要，抽离场景
 在一次`docker login`登陆过程中遇到这类报错：
 ```bash
 Error while pushing images to registry: dial tcp: lookup registry on 192.168.65.1:53: no such host
@@ -23,7 +24,7 @@ vim /etc/hosts
 docker login certificate relies on legacy Common Name field, use SANs or temporarily enable Common Name matching with GODEBUG=x509ignoreCN=0
 ```
 
-## 后果
+# 后果
 
 在网上找解决办法，发现除了配置host，还需要加`insecure-registries`，也有处理`registry-mirrors`的。
 
@@ -31,7 +32,7 @@ docker login certificate relies on legacy Common Name field, use SANs or tempora
 
 [docker for mac](https://github.com/docker/for-mac/issues/1733) 
  
-## 具体操作
+# 具体操作
 
 找到`daemon.json`文件，在大括号里添加
 
@@ -45,3 +46,10 @@ docker login certificate relies on legacy Common Name field, use SANs or tempora
 [docker-cmd](https://docs.docker.com/engine/reference/commandline/dockerd/)
 
 
+写稿模板
+- 前因
+- 后果
+- 我做了什么，还可以做什么
+- 理论知识是
+- 可以提取的点➡️思维导图｜关键点笔记
+ 

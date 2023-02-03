@@ -37,16 +37,5 @@ tags:
 认知-学习-成长
 反馈：
 分享策略
- 
-{% highlight ruby %}
-def foo
-  puts 'foo'
-end
-{% endhighlight %}
 
-{% highlight ruby linenos %}
-def foo
-  puts 'foo'
-end
-{% endhighlight %}
 

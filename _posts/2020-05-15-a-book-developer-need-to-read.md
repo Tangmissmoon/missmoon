@@ -399,16 +399,5 @@ keep 45kg。
 
 ​![more 笔记截图](https://img-blog.csdnimg.cn/20200515220918108.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzI4OTMwMjUx,size_16,color_FFFFFF,t_70)
 
- 
-{% highlight ruby %}
-def foo
-  puts 'foo'
-end
-{% endhighlight %}
 
-{% highlight ruby linenos %}
-def foo
-  puts 'foo'
-end
-{% endhighlight %}
 

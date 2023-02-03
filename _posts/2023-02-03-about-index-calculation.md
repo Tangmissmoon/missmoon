@@ -1,14 +1,15 @@
 ---
-title: 解决docker login出错过程
+title: 指标计算
 categories:
  - 记录
 tags: 
- - 解决问题
- - docker
+ - 掌握深度
+ - 业务经验
 ---
 
 # 前因
 
+业务需要，抽离场景
 在一次`docker login`登陆过程中遇到这类报错：
 ```bash
 Error while pushing images to registry: dial tcp: lookup registry on 192.168.65.1:53: no such host
@@ -23,7 +24,11 @@ vim /etc/hosts
 docker login certificate relies on legacy Common Name field, use SANs or temporarily enable Common Name matching with GODEBUG=x509ignoreCN=0
 ```
 
-## 后果
+# 后果
+
+[adobe-指标计算](https://experienceleague.adobe.com/docs/campaign-standard/using/reporting/about-reporting/indicator-calculation.html?lang=zh-Hans)
+[咨询-指标计算实践](https://brightliao.com/2021/05/26/data-indicator-calculation-practice/)
+[指标运算模型](https://segmentfault.com/a/1190000014300111)
 
 在网上找解决办法，发现除了配置host，还需要加`insecure-registries`，也有处理`registry-mirrors`的。
 
@@ -43,5 +48,4 @@ docker login certificate relies on legacy Common Name field, use SANs or tempora
 因为我用的是colima，替代docker，所以主机上这个文件在colima下有一份，在`vim ~/.colima-docker/docker/daemon.json`，设置后没有解决问题，再次尝试后解决`vim ~/.colima/docker/daemon.json`，两个位置都试试。
 
 [docker-cmd](https://docs.docker.com/engine/reference/commandline/dockerd/)
-
 
