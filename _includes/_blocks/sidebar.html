@@ -1,6 +1,6 @@
 {% case page.layout %}
 {% when 'index' %}
-  {% assign is_post = false %}
+  {% assign is_post = true %}
   {% capture sidebar %}{% include _macro/sidebar.html %}{% endcapture %}
 {% when 'post' %}
   {% assign is_post = true %}

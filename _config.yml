@@ -82,7 +82,7 @@ plugins:
 # ---------------------------------------------------------------
 
 # Put your favicon.ico into `assets/` directory.
-favicon: /assets/livewire.svg
+favicon: /assets/favicon.png
 
 
 

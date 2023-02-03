@@ -21,16 +21,22 @@ tags:
  
 ## 具体操作
 
-找到`daemon.json`文件，在大括号里添加
+# 今日份成长
+## 认知分享
 
-```json
-"registry-mirrors": [
-"https://registry.docker-cn.com"
-],
-```
-因为我用的是colima，替代docker，所以主机上这个文件在colima下有一份，在`vim ~/.colima-docker/docker/daemon.json`，设置后没有解决问题，再次尝试后解决`vim ~/.colima/docker/daemon.json`，两个位置都试试。
+1. 认知是什么
+2. 🧠三种体 爬虫、情绪、理智
+3. 情绪控制，状态切换，学习的规律
+4. 舒适区、心流、番茄工作法，科学调节自己
+5. 学习的方式：优质内容、人
+6. 学习的结果，用于分享、极致、输出，教授他人
+7. 早冥读写法
+8. 阅读 身体力行
+9. 写作 费曼技巧 外行人，小鸭子课堂，先用故事调动情绪脑，再进行深入
 
-[docker-cmd](https://docs.docker.com/engine/reference/commandline/dockerd/)
+认知-学习-成长
+反馈：
+分享策略
  
 {% highlight ruby %}
 def foo
