@@ -4,9 +4,7 @@ type: about
 ---
 
 ## 简介
-![moon](https://img.shields.io/badge/码农-missmoon-blue?style=flat-square&logo=Monica) 
-![miss](https://img.shields.io/badge/游泳-Tang-blue?style=flat-square&logo=Snapchat)
-![moon](https://img.shields.io/badge/社恐-INFJ➡️ENFJ-blue?style=flat-square&logo=Snapchat)
+![moon](https://img.shields.io/badge/码农-missmoon-blue?style=flat-square&logo=Monica) ![miss](https://img.shields.io/badge/游泳-Tang-blue?style=flat-square&logo=Octopus-Deploy) ![moon](https://img.shields.io/badge/MBTI:INFJ->ENFP-blue?style=flat-square&logo=Jasmine)
 
 
 💡本硕都是计科专业，码龄8年+，入坑“心流编程”，遂放弃好为人师，一心码砖，目前，多番努力下，终于成为厂内边缘化人物，职能包括服务器开发、数据处理。
@@ -16,12 +14,16 @@ type: about
 
 📚享受独处阅读时间，阅读上瘾，心态任何时候可以归零，认可张居正的工作态度，认可读书是在治愈，社交是在消耗，仍然会为了趋同定期参加社交活动。
 
-📝新增博客形式，是为了提高阅读&写作的ROI，沉淀解决问题的能力和过程，同时圆梦。
+📝新增博客形式，是为了提高阅读&写作的ROI，沉淀解决问题的能力和过程，同时圆梦。之后会搬运其他平台之前发过的博文，标注首发平台，同时为了练习写作技巧会进行一定的润色。
 
 ## 核心经历
-- Python
-- Java
-- svn、git、maven、mysql、mongodb
++ 编程
+    - Python
+    - Java
+    - svn、git、vim
+    - mysql、mongodb
+    - lnmp
++ 视频剪辑
 
 ## 目标
 - 提高写作能力
@@ -32,8 +34,8 @@ type: about
 ### 2023的期待：
 考证-志愿者-阅读-健康-写作
 
-- 考证 ![Progress](https://progress-bar.dev/5/?title=Progress&width=100)
-- 志愿者 ![Progress](https://progress-bar.dev/0/?title=Progress&width=100)
-- 阅读 ![Progress](https://progress-bar.dev/10/?title=Progress&width=100)
-- 健康 ![Progress](https://progress-bar.dev/1/?title=Progress&width=100)
-- 写作 ![Progress](https://progress-bar.dev/10/?title=Progress&width=100)
+- 考证 ![Progress](https://progress-bar.dev/5/?title=now&width=50&color=33F250)
+- 志愿者 ![Progress](https://progress-bar.dev/0/?title=now&width=50&color=33F250)
+- 阅读 ![Progress](https://progress-bar.dev/10/?title=now&width=50&color=33F250)
+- 健康 ![Progress](https://progress-bar.dev/15/?title=now&width=50&color=33F250)
+- 写作 ![Progress](https://progress-bar.dev/8/?title=now&width=50&color=33F250)
