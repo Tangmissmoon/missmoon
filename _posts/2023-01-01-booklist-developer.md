@@ -24,15 +24,4 @@ tags:
 
 框架技术及系列的知识
 
-{% highlight ruby %}
-def foo
-  puts 'foo'
-end
-{% endhighlight %}
-
-{% highlight ruby linenos %}
-def foo
-  puts 'foo'
-end
-{% endhighlight %}
 
