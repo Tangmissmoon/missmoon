@@ -82,7 +82,7 @@ plugins:
 # ---------------------------------------------------------------
 
 # Put your favicon.ico into `assets/` directory.
-favicon: /assets/favicon.png
+favicon: /assets/images/favicon.png
 
 
 
@@ -125,7 +125,7 @@ index_with_subtitle: false
 
 # When running the site in a subdirectory (e.g. domain.tld/blog), remove the leading slash (/archives -> archives)
 menu:
-  home: / || home
+  home: /
   archives: /archives/
   # categories: /categories/ || list
   tags: /tags/
