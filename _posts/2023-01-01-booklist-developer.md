@@ -14,7 +14,7 @@ tags:
 
 - 《Effective Python》
 - 《Fluent Python》
-- 《Core Java》
+- 《Core Java》[demo](https://blogs.oracle.com/javamagazine/post/core-java-11th-ed-volumes-1-and-2)
 ```
 通过阅读+练习的方式，掌握两种编程。
 ```
