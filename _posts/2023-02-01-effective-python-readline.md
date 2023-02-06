@@ -12,7 +12,7 @@ tags:
 
 > 刻意练习，每日精进. 找出闪光点.
 
-<!-- more -->
+<!-- more begin-out-is-great -->
 
 📘基本信息
     书名：《Effective Python》编写高质量Python代码的90个有效方法
@@ -28,5 +28,27 @@ tags:
     不太会的，略知一二，工匠手写笔记+手工练习（代码）
 
 12. 特殊步进的切片方式：somelist[start:end:stride]，-1反转的用法，对bytes类型的字符串、Unicode类型的字符串都可以，不支持UTF-8的字节数据，尽量不要同时写满标记的三个参数，难以理解，如有需要，使用itertools内置模块里的islice方法
+
 13. 用星号的unpacking操作捕获元素：one,two,*three=[1,2,3,4]
+
+14. 用`sort`方法的key参数来表示复杂的排序逻辑
+```python
+Class Tool:
+    def __init__(self, name, weight):
+        self.name = name
+        self.weight = weight
+    
+    def __repr__(self):
+        return f"Tool({self.name!r}, {self.weight})"
+# Traceback        
+tools.sort()
+power_tolls = [
+    Tool('drill', 4),
+    Tool('circular saw', 5),
+    Tool('jackhammer', 40),
+    Tool('sander', 4),
+]
+power_tools.sort(key=lambda x:(-x.weight, x.name))
+power_tools.sort(key=lambda x:(-x.weight, x.name) reverse=True) # error
+```
 

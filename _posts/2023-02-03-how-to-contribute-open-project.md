@@ -52,14 +52,3 @@ tags:
 其实，通过提高自身的认知，增加刻意学习的意识方式，对于埋头写代码的我们来说，还是大有裨益的。不断输出，证明自己的价值过程中，容易忽略初心，或者是失去探索兴趣，如果仅把工作看成是一种earn money的方式，当然不用计较这么多，但大多数人，还是需要从琐碎的日常中，获取成就感。所以，提高认知，才能更从容的面对大环境变化，学习更多的知识作为储备，这是我们成长的过程。
 
 
-
-- [x] Completed task
-- [ ] Incomplete task
-  - [ ] Sub-task 1
-  - [x] Sub-task 2
-  - [ ] Sub-task 3
-
-1. [x] Completed task
-1. [ ] Incomplete task
-   1. [ ] Sub-task 1
-   1. [x] Sub-task 2
