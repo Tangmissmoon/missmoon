@@ -51,4 +51,6 @@ power_tolls = [
 power_tools.sort(key=lambda x:(-x.weight, x.name))
 power_tools.sort(key=lambda x:(-x.weight, x.name) reverse=True) # error
 ```
+15. 第15条，不要过分依赖给字典添加条目时所用的顺序，`3.5`之前的版本，顺序不定，这跟字典类型以前跟哈希表实现有关，内置的`hash`函数和随机种子数来确定，因此`dict`相关的方法都不能保证固定的顺序，而`3.6`开始，字典会保留添加时所使用的顺序。
 
+>内置的`Collections`模块提供的OrderedDict，行为和3.7版本后的标准dict很像，但性能有较到区别。实现LRU缓存，（least-recently-used缓存）OrderedDict比dict类型更合适。
