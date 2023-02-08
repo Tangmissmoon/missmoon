@@ -32,7 +32,7 @@ tags:
 
 >内置的`Collections`模块提供的OrderedDict，行为和3.7版本后的标准dict很像，但性能有较到区别。实现LRU缓存，（least-recently-used缓存）OrderedDict比dict类型更合适。
 
-
+顺便一提，LRU缓存是当时实习面试时，大佬考的一个问题，没回答上来。结束了面试以后，我有下来查答案，截止现在，又几乎忘光了。仅记得是一种缓存机制，仅保存一段时间的。
 
 
 
