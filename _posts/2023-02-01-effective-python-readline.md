@@ -53,12 +53,17 @@ power_tools.sort(key=lambda x:(-x.weight, x.name) reverse=True) # error
 ```
 15. 第15条，不要过分依赖给字典添加条目时所用的顺序，`3.5`之前的版本，顺序不定，这跟字典类型以前跟哈希表实现有关，内置的`hash`函数和随机种子数来确定，因此`dict`相关的方法都不能保证固定的顺序，而`3.6`开始，字典会保留添加时所使用的顺序。
 
->内置的`Collections`模块提供的OrderedDict，行为和3.7版本后的标准dict很像，但性能有较到区别。实现LRU缓存，（least-recently-used缓存）OrderedDict比dict类型更合适。
+    >内置的`Collections`模块提供的OrderedDict，行为和3.7版本后的标准dict很像，但性能有较到区别。实现LRU缓存，（least-recently-used缓存）OrderedDict比dict类型更合适。
 
->补充，如果不想把这种与标准字典相似的类型当作标准字典处理的话，可以考虑三种办法：
-> - 不依赖插入时的顺序编码；
-> - 在程序运行时，明确判断字典类型，可以使用`instance`方法；
-> - 给代码添加类型注解并作静态分析。
+    >补充，如果不想把这种与标准字典相似的类型当作标准字典处理的话，可以考虑三种办法：
+    > - 不依赖插入时的顺序编码；
+    > - 在程序运行时，明确判断字典类型，可以使用`instance`方法；
+    > - 给代码添加类型注解并作静态分析。
 
->内置的`Collections`模块提供的OrderedDict，行为和3.7版本后的标准dict很像，但性能有较到区别。实现LRU缓存，（least-recently-used缓存）OrderedDict比dict类型更合适。
+    >内置的`Collections`模块提供的OrderedDict，行为和3.7版本后的标准dict很像，但性能有较到区别。实现LRU缓存，（least-recently-used缓存）OrderedDict比dict类型更合适。
 
+16. `get` 处理键不在字典里的情况，不使用`in`和`KeyError`，字典有三种交互操作，访问、赋值以及删除键值对，还有一种是`dict.setdefault(key, value)`。
+    
+    - 如果跟键相关联的值，是基本类型，选`get`；
+    - 构造开销大/容易异常的类型，和赋值表达式结合起来用 `dict[key] = values = []`
+    - `setdefault` 方案 vs `defaultdict`
