@@ -27,6 +27,17 @@ tags:
     理解会用的，阅读细节，加深印象
     不太会的，略知一二，工匠手写笔记+手工练习（代码）
 
+1. 
+
+3. 
+4. 
+5. s
+6. s
+7. s
+8. s
+9. s
+10. s
+11. 
 12. 特殊步进的切片方式：somelist[start:end:stride]，-1反转的用法，对bytes类型的字符串、Unicode类型的字符串都可以，不支持UTF-8的字节数据，尽量不要同时写满标记的三个参数，难以理解，如有需要，使用itertools内置模块里的islice方法
 
 13. 用星号的unpacking操作捕获元素：one,two,*three=[1,2,3,4]
@@ -67,3 +78,21 @@ power_tools.sort(key=lambda x:(-x.weight, x.name) reverse=True) # error
     - 如果跟键相关联的值，是基本类型，选`get`；
     - 构造开销大/容易异常的类型，和赋值表达式结合起来用 `dict[key] = values = []`
     - `setdefault` 方案 vs `defaultdict`
+
+17. 用`defaultdict` 处理内部状态中缺失的元素，不使用`setdefault`，比如：
+```python
+
+visits = {
+    'Mexico': {'Tulum', 'Puerto Vallarta'},
+    'Japan': {'Hakone'},
+}
+visits.setdefault('France', set()).add('Arles') # short use
+
+if (japan := visits.get('Japan')) is None : # Long use
+    visits['Japan'] = japan = set()
+japan.add('Kyoto')
+print(visits)
+```
+展开讲了`setdefault` 方案 vs `defaultdict` 的区别，`python` 内置的 `collections` 模块提供了`defaultdict`类，它能够实现**键缺失的情况下，自动添加该键及键所对应的默认值**，区别 `setdefault` 方案的是，不再重复分配 `set`。
+- 如果字典需要添加任意键，考虑使用内置的`collections`模块中的`defaultdict`实例来解决问题；
+- 收到传入的字典键名较随意，没有用 `defauldict` 
