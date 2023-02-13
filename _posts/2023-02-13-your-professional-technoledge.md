@@ -62,8 +62,9 @@ highlight + 概要
 - 返回的多个值，可以用普通变量没有捕获的部分，捕获到一个带星号的变量里，捕获也指赋值，比如：`egg, *sp_egg = (1, 2, 3)`；
 - 返回值接收时，处理四个及以上的变量容易出错，应该通过小类或者`namedtuple`实例完成。
 
+第20条：遇到意外情况时，应该抛出异常，而不是`None`，`utility fuction` 编写方法时，有时会返回`None` 
 
+## 灵感网站
 
-## 灵感文献
-
--  世界上第一位程序员，女 https://zhuanlan.zhihu.com/p/23521610
+- 世界上第一位程序员，女 https://zhuanlan.zhihu.com/p/23521610
+- 变现的小产品 https://www.ezindie.com/?ref=nicelinks.site
