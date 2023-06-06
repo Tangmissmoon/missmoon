@@ -7,10 +7,32 @@ type: about
 ![moon](https://img.shields.io/badge/码农-missmoon-blue?style=flat-square&logo=Monica) ![miss](https://img.shields.io/badge/游泳-Tang-blue?style=flat-square&logo=Octopus-Deploy) ![moon](https://img.shields.io/badge/MBTI:INFJ->ENFP-blue?style=flat-square&logo=Jasmine)
 
 
-💡本硕都是计科专业，码龄8年+，入坑“心流编程”，遂放弃好为人师，一心码砖，目前，多番努力下，终于成为厂内边缘化人物，职能包括服务器开发、数据处理。
+码龄8年+，入坑“心流编程”，选择了丛林中人烟稀少相反的一条路，职能包括服务器开发、数据处理。
+
+## 码力
+1. 语言
+    - Python
+    - Java
+    - Linux
+    - etc
+2. 项目
+    - 平台后端
+        + Springboot
+        + Docker
+        + k8s
+        + yaml
+        + Tornado
+        + Mybatis
+        + CICD
+    - 舆情项目
+        + Scrapy
+    - 对话项目
 
 ## 兴趣
-💻有过超沉静状态编程体验后，敲码成为了，不仅仅是工作，更是快乐的事情，兴趣包括知识管理、探索未知，对flomo、幕布、notion这类工具，非常推崇，有TODOlist的多年习惯，尤其是重大事件发生前后，纸张书写帮助增加仪式感，加深记忆，所以，也相信“最深的记忆，抵不过最淡的墨水”。
+💻
+📖
+✍️
+🧾
 
 📚享受独处阅读时间，阅读上瘾，心态任何时候可以归零，认可张居正的工作态度，认可读书是在治愈，社交是在消耗，仍然会为了趋同定期参加社交活动。
 
