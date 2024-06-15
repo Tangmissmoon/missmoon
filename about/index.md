@@ -14,7 +14,7 @@ type: about
     - Python
     - Java
     - Linux
-    - etc
+    - etc.
 2. 项目
     - 平台后端
         + Springboot
@@ -24,9 +24,10 @@ type: about
         + Tornado
         + Mybatis
         + CICD
-    - 舆情项目
+    - 数据开发（偏数仓）
         + Scrapy
-    - 对话项目
+        + kafka
+        + ElasticSearch
 
 ## 兴趣
 💻
@@ -42,8 +43,8 @@ type: about
 + 编程
     - Python
     - Java
-    - svn、git、vim
-    - mysql、mongodb
+    - Svn、Git、Vim
+    - MySQL、Mongodb
     - lnmp
 + 视频剪辑
 
@@ -53,11 +54,16 @@ type: about
 - 积攒阅历过程
 - 用作品说话
 
-### 2023的期待：
-考证-志愿者-阅读-健康-写作
+### 2024已做到
+1. 驾驶证🪪
+2. 参加软考📄
+3. 合同约满🈵
 
-- 考证 ![Progress](https://progress-bar.dev/5/?title=now&width=50&color=33F250)
-- 志愿者 ![Progress](https://progress-bar.dev/0/?title=now&width=50&color=33F250)
-- 阅读 ![Progress](https://progress-bar.dev/10/?title=now&width=50&color=33F250)
-- 健康 ![Progress](https://progress-bar.dev/15/?title=now&width=50&color=33F250)
-- 写作 ![Progress](https://progress-bar.dev/8/?title=now&width=50&color=33F250)
+### 2024的期待：
+拿证-阅读-健康-写作-CV
+
+- 拿证 ![Progress](https://progress-bar.dev/10/?title=now&width=50&color=33F250)
+- 阅读 ![Progress](https://progress-bar.dev/20/?title=now&width=50&color=33F250)
+- 健康 ![Progress](https://progress-bar.dev/30/?title=now&width=50&color=33F250)
+- 写作 ![Progress](https://progress-bar.dev/1/?title=now&width=50&color=33F250)
+- CV ![Progress](https://progress-bar.dev/0/?title=now&width=50&color=33F250)
