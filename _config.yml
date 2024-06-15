@@ -4,12 +4,12 @@
 # ---------------------------------------------------------------
 
 # Site
-title: NexT
-subtitle:
-description:
-author: John Doe
+title: Valley
+subtitle: 谦卑之心生活，勇者之胆前行。
+description: 奇妙之旅
+author: Tang missmoon
 # Support language: de, en, fr-FR, id, ja, ko, pt-BR, pt, ru, zh-Hans, zh-hk, zh-tw
-language: en
+language: zh-Hans
 date_format: '%Y-%m-%d'
 
 # URL
@@ -61,8 +61,14 @@ defaults:
       comments: true
 
 # Atom feed
+# feed
+# Dependencies: https://github.com/Tangmissmoon/missmoon
 feed:
+  type: atom
   path: atom.xml
+  limit: 20
+  hub:
+  content:
 
 # Plugins
 ## Docs: https://help.github.com/articles/configuring-jekyll-plugins/
@@ -76,10 +82,13 @@ plugins:
 # ---------------------------------------------------------------
 
 # Put your favicon.ico into `assets/` directory.
-favicon: /assets/favicon.ico
+favicon: https://img.icons8.com/ios/256/easy.png
+# /assets/images/favicon.png
+
+
 
 # Set default keywords (Use a comma to separate)
-keywords: "Jekyll, NexT"
+keywords: "Missmoon, Python, blog, knowledge"
 
 # Set rss to false to disable feed link.
 # Leave rss as empty to use site's feed link.
@@ -87,13 +96,13 @@ keywords: "Jekyll, NexT"
 rss:
 
 # Specify the date when the site was setup
-#since: 2015
+#since: 2023
 
 # icon between year and author @Footer
-authoricon: heart
+authoricon: user
 
 # Footer `powered-by` and `theme-info` copyright
-copyright: true
+copyright: false
 
 # ---------------------------------------------------------------
 # SEO Settings
@@ -118,10 +127,11 @@ index_with_subtitle: false
 # When running the site in a subdirectory (e.g. domain.tld/blog), remove the leading slash (/archives -> archives)
 menu:
   home: /
-  #categories: /categories/
-  #about: /about/
   archives: /archives/
+  # categories: /categories/ || list
   tags: /tags/
+  # tools: /categories/工具资源/ || briefcase
+  about: /about/
   #sitemap: /sitemap.xml
   #commonweal: /404.html
 
@@ -215,6 +225,7 @@ font:
 # Value is the target link (E.g. GitHub: https://github.com/iissnan)
 #social:
   #LinkLabel: Link
+  E-Mail: mailto:tangsy163@gmail.com || envelope
 
 
 # Social Links Icons
@@ -233,7 +244,7 @@ social_icons:
 
 # Sidebar Avatar
 # in directory: /assets/images/avatar.gif
-#avatar:
+avatar: /assets/images/avatar.gif
 
 
 # Table Of Contents in the Sidebar
@@ -273,11 +284,11 @@ sidebar:
   offset: 12
   offset_float: 0
 
-  # Back to top in sidebar
-  b2t: false
+  # 显示TOP按钮
+  b2t: true
 
-  # Scroll percent label in b2t button
-  scrollpercent: false
+  # 浏览页面显示进度
+  scrollpercent: true
 
 
 # Blog rolls
@@ -311,14 +322,15 @@ auto_excerpt:
 post_meta:
   item_text: true
   created_at: true
-  updated_at: false
+  updated_at: true
   categories: true
 
 # Post wordcount display settings
 post_wordcount:
-  item_text: true
-  wordcount: false
-  min2read: false
+  item_text: true   
+  wordcount: true  # 字数统计
+  min2read: true   # 预览时间
+  totalcount: true # 总统计
   separated_meta: true
 
 # Wechat Subscriber
@@ -327,12 +339,11 @@ post_wordcount:
   #qcode: /path/to/your/wechatqcode ex. /uploads/wechat-qcode.jpg
   #description: ex. subscribe to my blog by scanning my public wechat account
 
-# Declare license on posts
+# 开启版权声明
 post_copyright:
-  enable: false
-  license: CC BY-NC-SA 3.0
-  license_url: https://creativecommons.org/licenses/by-nc-sa/3.0/
-
+  enable: true
+  license: CC BY-NC-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-nc-sa/4.0/
 
 
 # ---------------------------------------------------------------
@@ -353,7 +364,7 @@ custom_logo:
 # Available value:
 #    normal | night | night eighties | night blue | night bright
 # https://github.com/chriskempson/tomorrow-theme
-highlight_theme: normal
+highlight_theme: night eighties
 
 
 # ---------------------------------------------------------------
@@ -406,8 +417,8 @@ wildfire:
   wilddog: # your wilddog config goes here ↓
     siteId:
   # other configs
-  theme: light # or dark
-  locale: en # or other locales, e.g. zh-CN
+  theme: dark # or dark
+  locale: zh-CN # or other locales, e.g. zh-CN
   defaultAvatarURL: 
 # Any question? 
 # Raise an issue here: https://github.com/cheng-kang/wildfire/issues
@@ -523,9 +534,9 @@ rating:
 # Show number of visitors to each article.
 # You can visit https://leancloud.cn get AppID and AppKey.
 leancloud_visitors:
-  enable: false
-  app_id: #<app_id>
-  app_key: #<app_key>
+  enable: true
+  app_id: # your leancloud application appid
+  app_key:  # your leancloud application appkey
 
 # Show PV/UV of the website/page with busuanzi.
 # Get more information on http://ibruce.info/2015/04/04/busuanzi/
@@ -562,7 +573,7 @@ baidu_push: false
 # API Documentation:
 # https://developers.google.com/google-apps/calendar/v3/reference/events/list
 calendar:
-  enable: false
+  enable: true
   calendar_id: <required>
   api_key: <required>
   orderBy: startTime
@@ -572,6 +583,8 @@ calendar:
   showDeleted: false
   singleEvents: true
   maxResults: 250
+
+# 检索功能
 
 # Algolia Search
 algolia_search:
@@ -586,7 +599,7 @@ algolia_search:
 
 # Local search
 local_search:
-  enable: false
+  enable: true
   # if auto, trigger search by changing input
   # if manual, trigger search by pressing enter key or search button
   trigger: auto
